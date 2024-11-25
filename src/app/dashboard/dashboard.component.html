@@ -1,0 +1,42 @@
+<div class="template">
+  <div class="navbar">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="content">
+    <div class="board_content">
+      <div class="tableboard">
+        <div class="month">
+          <ul>
+            <li>
+              <span id="fullDate">{{ fullDate }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="form_button">
+        <div class="dropdown">
+          <div class="ic">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div class="ic">
+              <i class="fa-solid fa-bars" (click)="toggleMenu()"></i>
+          </div>
+        </div>
+        <div class="menu_content" id="menu" [class.show]="isMenuVisible">
+          <a href="equipes/selections">Selection</a>
+          <a href="equipes/membres">Membre</a>
+        </div>
+      </div>
+    </div>
+    <div class="dashboard">
+      <div class="agenda_content">
+        <h5>Mémo</h5>
+      </div>
+      <div class="number_content">
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+      </div>
+    </div>
+  </div>
+</div>

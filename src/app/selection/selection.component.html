@@ -1,0 +1,106 @@
+<div class="selection_content">
+  <div class="selection_form">
+    <div class="return_button">
+      <button><a href="dashboard"><i class="fa-solid fa-backward"></i></a></button>
+    </div>
+    <form action="">
+      <div class="title">
+        <h3>Selection Crew</h3>
+      </div>
+      <div class="date">
+        <label for="date_selec"> Du : </label>
+        <input type="date" name="date_selec" id="date_selec" />
+      </div>
+      <div class="informations">
+        <div class="basic_informations">
+          <div class="name">
+            <div class="label">
+              <label for="">Nom</label>
+            </div>
+            <div class="input">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="discipline">
+            <div class="label">
+              <label for="">Discipline </label>
+            </div>
+            <div class="input">
+              <input type="text" />
+            </div>
+          </div>
+          <div class="mention">
+            <div class="label">
+              <label for="">Niveau Chorégraphique</label>
+            </div>
+            <div class="input">
+              <input type="text" />
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <div class="criteres">
+          <h6>Note /5 pour chaque critères</h6>
+          <div class="group">
+            <div class="group_list" id="crea_content">
+              <label for="">Créativité</label><br />
+              <input type="text" />
+            </div>
+            <hr />
+            <div class="group_list" id="prec_content">
+              <label for="">Précision/Technique</label><br />
+              <input type="text" /><br />
+            </div>
+          </div>
+          <div class="group">
+            <div class="group_list" id="energie_content">
+              <label for="">Energie</label><br />
+              <input type="text" /><br />
+            </div>
+            <hr />
+            <div class="group_list" id="feeling_content">
+              <label for="">Feeling</label><br />
+              <input type="text" /><br />
+            </div>
+          </div>
+          <div class="group">
+            <div class="group_list" id="endurance_content">
+              <label for="">Endurance</label><br />
+              <input type="text" /><br />
+            </div>
+            <hr />
+            <div class="group_list" id="esthetik_content">
+              <label for="">Esthétique</label><br />
+              <input type="text" /><br />
+            </div>
+          </div>
+          <div class="group">
+            <div class="group_list" id="express_content">
+              <label for="">Expression Faciale</label><br />
+              <input type="text" /><br />
+            </div>
+            <hr />
+            <div class="group_list" id="aisance_content">
+              <label for="">Aisance</label><br />
+              <input type="text" /><br />
+            </div>
+          </div>
+          <div class="total">
+            <h6>Total des notes /40</h6>
+            <label for="">Total</label><br />
+            <input type="text" />
+          </div>
+        </div>
+        <div class="form_button">
+          <button>Enregistrer</button>
+          <button>Annuler</button>
+          <button><a href="formulaire.html">Membre</a></button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="table_selection">
+    <app-selection-table></app-selection-table>
+  </div>
+</div>

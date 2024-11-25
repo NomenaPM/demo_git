@@ -1,0 +1,36 @@
+.table_result {
+  width: 100%;
+  table {
+    width: 100%;
+    max-height: 90vh;
+    border-collapse: collapse;
+    th,
+    td {
+      border: 1px solid var(--sombre);
+      padding: 3px;
+      text-align: left;
+      align-items: center;
+      justify-content: center;
+    }
+    td {
+      .button {
+        display: flex;
+        button {
+          width: 25px;
+          height: 25px;
+          margin: 3px;
+          background-color: var(--gris);
+          .fa-pen {
+            color: green;
+          }
+          .fa-trash {
+            color: red;
+          }
+        }
+      }
+    }
+    #total{
+        color: var(--bleu);
+    }
+  }
+}

@@ -1,0 +1,135 @@
+.selection_content {
+  display: flex;
+  font-size: 12px;
+  overflow: hidden;
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--sombre);
+  }
+  .selection_form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gris);
+    width: 38%;
+    height: 100vh;
+    .return_button {
+      display: flex;
+      float: left;
+      margin-top: 5px;
+      margin-left: 3px;
+      button {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        background-color: var(--turquoise);
+        border: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      i {
+        color: var(--sombre);
+        font-size: 14px;
+      }
+    }
+    form {
+      width: 500px;
+      margin-top: 7.5px;
+      input {
+        width: 125px;
+        height: 25px;
+        border: 1px solid var(--sombre);
+        border-radius: 5px;
+      }
+      .date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+      }
+      .basic_informations {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .name,
+      .discipline,
+      .mention {
+        margin-top: 15px;
+      }
+      .name {
+        margin-left: 7.5px;
+      }
+      .mention {
+        margin-right: 7.5px;
+      }
+      .label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .discipline .input {
+        margin-left: 5px;
+      }
+      .mention .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .criteres {
+        h6 {
+          margin: 10px;
+          font-size: 11px;
+        }
+        .group {
+          display: flex;
+          justify-content: space-around;
+          .group_list {
+            margin: 5px;
+            label {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: -10px;
+            }
+          }
+        }
+        .total {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-left: 10px;
+          label {
+            margin-top: 2px;
+          }
+          input {
+            width: 75px;
+          }
+        }
+      }
+      .form_button {
+        margin-top: 25px;
+        margin-left: -10px;
+        display: flex;
+        justify-content: space-around;
+        button {
+          width: 100px;
+          height: 25px;
+          background-color: var(--turquoise);
+          border: none;
+          border-radius: 10px;
+          font-size: 12px;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .table_selection{
+    width: 65%;
+  }
+}

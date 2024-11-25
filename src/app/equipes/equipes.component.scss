@@ -1,0 +1,154 @@
+.template {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  .navbar {
+    width: 25%;
+  }
+  .team_content {
+    width: 100%;
+    margin-left: 175px;
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+    overflow: hidden;
+    .header {
+      width: 100%;
+      background-color: var(--gris);
+      border-radius: 10px;
+      height: 50px;
+      line-height: 45px;
+      display: flex;
+      justify-content: space-between;
+      .title_page {
+        margin-left: 15px;
+        font-size: 14px;
+      }
+      .options {
+        select {
+          width: 300px;
+          height: 25px;
+          padding: 3.5px 5px 3.5px 125px;
+          font-size: 14px;
+          background-color: var(--turquoise);
+          border: none;
+          border-radius: 5px;
+        }
+      }
+      .user_content {
+        margin-top: 7px;
+        margin-right: 10px;
+        display: flex;
+        i {
+          color: var(--bleu);
+          margin-top: 8px;
+          margin-right: 20px;
+          font-size: 20px;
+        }
+        img {
+          width: 35px;
+          height: 35px;
+          border-radius: 100%;
+        }
+      }
+    }
+    .equipe_content {
+      display: flex;
+      flex-direction: row;
+      margin-top: 13px;
+      width: 100%;
+      height: 90vh;
+      .list_equipe {
+        background-color: var(--gris);
+        width: 25%;
+        height: 84vh;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        .label_content {
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        .search_content {
+          position: relative;
+          margin: 5px;
+          i {
+            margin-left: 10px;
+            margin-top: 6.5px;
+            position: absolute;
+            font-size: 12px;
+          }
+          input {
+            border-radius: 10px;
+            background-color: white;
+            padding-left: 25px;
+            width: 175px;
+            height: 25px;
+            border: none;
+          }
+        }
+      }
+    }
+    .unique_list {
+      background-color: var(--gris);
+      width: 142vh;
+      height: 85.5vh;
+      margin-left: 15px;
+      border-radius: 5px;
+      .person_content {
+        width: 100%;
+        height: 55px;
+        background-color: var(--turquoise);
+        border-radius: 5px 5px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        img {
+          width: 45px;
+          height: 45px;
+          border-radius: 100%;
+          margin-top: 5px;
+          margin-left: 5px;
+        }
+        .desc_content {
+          margin-left: 15px;
+          margin-top: 22px;
+          font-size: 14px;
+          p {
+            margin: -5px;
+          }
+        }
+      }
+      .member_details {
+        width: 97%;
+        height: 100px;
+        margin: 10px;
+        padding: 7.5px;
+        border: 1px solid var(--turquoise);
+        border-radius: 10px;
+        h5 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: underline;
+          margin-bottom: -5px;
+        }
+        .details_content {
+          display: flex;
+          justify-content: space-between;
+          font-size: 13.5px;
+          margin-top: 2px;
+        }
+        .basic_info {
+          justify-self: center;
+          margin-left: 20px;
+        }
+        .gender_content {
+          margin-right: 10px;
+          h5 {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

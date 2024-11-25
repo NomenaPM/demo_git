@@ -1,0 +1,102 @@
+<div class="membre_form">
+  <div class="form_content">
+    <div class="return_button">
+      <button><a href="dashboard"><i class="fa-solid fa-backward"></i></a></button>
+    </div>
+    <form>
+      <!--Formulaire d'enregistrement des membres-->
+      <div class="title">
+        <h3>Nouveau Membre</h3>
+      </div>
+      <h6>* Informations basiques</h6>
+      <hr />
+      <!--Informations basiques-->
+      <div class="basic">
+        <div class="personne_info">
+          <!--Nom de la personne-->
+          <div class="name">
+            <label for="name">Nom</label><br />
+            <input type="text" name="name" id="name" />
+          </div>
+          <!--Parcours et niveau-->
+          <div class="parcours">
+            <label for="parcours">Parcours / Niveau</label><br />
+            <input type="text" name="parcours" id="parcours" />
+          </div>
+        </div>
+        <!--Informations supplémentaires-->
+        <div class="dob">
+          <!--Date de Naissance-->
+          <div class="date_naiss">
+            <label for="dob">Date de Naissance</label><br />
+            <input type="date" name="dob" id="dob" />
+          </div>
+          <!--Sexe-->
+          <div class="gender">
+            <label for="gender">Genre</label><br />
+            <select name="gender" id="gender">
+              <option value="Femme">Femme</option>
+              <option value="Homme">Homme</option>
+            </select>
+          </div>
+          <!--Positionnement dans le club-->
+          <div class="equipe">
+            <label for="">Equipe</label><br />
+            <select name="gender" id="gender">
+              <option value="Femme">Crew</option>
+              <option value="Homme">Classe</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!--Informations supplémentaires pour les crew-->
+      <div class="crew">
+        <h6>* Si Crew</h6>
+        <hr />
+        <!--Citations par rapport à la danse-->
+        <div class="devise">
+          <label for="">Devise</label><br />
+          <input type="text" />
+        </div>
+        <!--Note durant la sélection-->
+        <div class="note">
+          <label for="">Note de selection /40</label><br />
+          <input type="text" />
+        </div>
+        <!--Statistioques va permettre de mettre en place le graphe de niveau d'aptitude pour chaque type de dnase pour chaque membre de l'équipe crew-->
+        <div class="Statistique">
+          <h4>Statistiques (en %)</h4>
+          <div class="mod">
+            <div class="danse_couple">
+              <label for="">Danse de couple </label><br />
+              <div class="inp">
+                <input type="text" />
+              </div>
+            </div>
+            <div class="danse_moderne">
+              <label for="">Danse Moderne</label><br />
+              <div class="inp">
+                <input type="text" />
+              </div>
+            </div>
+            <div class="danse_trad">
+              <label for="">Danse Traditionnelle</label><br />
+              <div class="inp">
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Bouton d'enregistrement du formulaire-->
+      <div class="form_button">
+        <button>Enregistrer</button>
+        <button>Annuler</button>
+        <button><a href="selection.html">Sélection</a></button>
+      </div>
+    </form>
+  </div>
+  <div class="table_membre">
+    <app-table-membre></app-table-membre>
+  </div>
+</div>

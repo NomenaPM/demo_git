@@ -1,0 +1,117 @@
+.membre_form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  font-size: 12px;
+  .return_button {
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    button {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      background-color: var(--turquoise);
+      border: none;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .form_content {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--gris);
+    form{
+      margin-left: 5px;
+    }
+    .title {
+      margin: -10px 10px 15px 10px;
+      h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+      }
+    }
+    h6 {
+      margin: 10px;
+      font-size: 11px;
+    }
+    h4 {
+      margin: 10px;
+    }
+    input,
+    select {
+      border-radius: 10px;
+      border: 1px solid var(--sombre);
+    }
+    select {
+      width: 75px;
+      height: 20px;
+      margin-top: 5px;
+    }
+    .basic {
+      label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px;
+      }
+      .dob,
+      .personne_info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-right: 10px;
+      }
+      .gender {
+        margin-left: -50px;
+        select {
+          padding-left: 5px;
+        }
+      }
+      .equipe {
+        select {
+          padding-left: 5px;
+        }
+      }
+    }
+    .devise,
+    .note,
+    .statistique {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
+    .mod {
+      display: flex;
+      justify-content: space-between;
+    }
+    .inp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .form_button {
+      margin-top: 25px;
+      margin-left: -10px;
+      display: flex;
+      justify-content: space-around;
+      button {
+        width: 100px;
+        height: 25px;
+        background-color: var(--turquoise);
+        border: none;
+        border-radius: 10px;
+        font-size: 12px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
